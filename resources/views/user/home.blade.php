@@ -15,7 +15,7 @@
             </div>
             <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                 <div class="booking-form">
-                    <h3>Booking Your Hotel</h3>
+                    <h3>Booking Your Room</h3>
                     <form action="#">
                         <div class="check-date">
                             <label for="date-in">Check In:</label>
@@ -124,7 +124,6 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    {{-- <span>What We Do</span> --}}
                     <h2>Khách sạn được yêu thích</h2>
                 </div>
             </div>
@@ -132,15 +131,16 @@
         <div class="row">
             <div class="col-lg-4 col-sm-6">
                 <div class="service-item">
-                    <i class="flaticon-036-parking"></i>
+                    <img src="../user/img/summer-trip-hồ-cốc-1.jpg" alt="">
                     <h4>Travel Plan</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna.</p>
+
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="service-item">
-                    <i class="flaticon-033-dinner"></i>
+                    <img src="../user/img/summer-trip-hồ-cốc-1.jpg" alt="">
                     <h4>Catering Service</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna.</p>
@@ -148,7 +148,7 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="service-item">
-                    <i class="flaticon-026-bed"></i>
+                    <img src="../user/img/summer-trip-hồ-cốc-1.jpg" alt="">
                     <h4>Babysitting</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna.</p>
@@ -156,7 +156,7 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="service-item">
-                    <i class="flaticon-024-towel"></i>
+                    <img src="../user/img/summer-trip-hồ-cốc-1.jpg" alt="">
                     <h4>Laundry</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna.</p>
@@ -164,7 +164,7 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="service-item">
-                    <i class="flaticon-044-clock-1"></i>
+                    <img src="../user/img/summer-trip-hồ-cốc-1.jpg" alt="">
                     <h4>Hire Driver</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna.</p>
@@ -172,7 +172,7 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="service-item">
-                    <i class="flaticon-012-cocktail"></i>
+                    <img src="../user/img/summer-trip-hồ-cốc-1.jpg" alt="">
                     <h4>Bar & Drink</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna.</p>

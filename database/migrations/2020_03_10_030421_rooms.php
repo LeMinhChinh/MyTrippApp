@@ -16,6 +16,7 @@ class Rooms extends Migration
         Schema::create('rooms', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('id_rp');
+            $table->bigInteger('name');
             $table->string('image',1000);
             $table->string('image_1',1000)->nullable();
             $table->string('image_2',1000)->nullable();
@@ -24,6 +25,7 @@ class Rooms extends Migration
             $table->integer('adult');
             $table->integer('child');
             $table->tinyInteger('bed');
+            $table->tinyInteger('type_bed');
             $table->tinyInteger('smoke');
             $table->tinyInteger('wifi');
             $table->string('description',1000)->nullable();

@@ -77,7 +77,7 @@
 		Testimonial Slider
     ----------------------- */
     $(".testimonial-slider").owlCarousel({
-        items: 1,
+        items: 4,
         dots: false,
         autoplay: true,
         loop: true,
