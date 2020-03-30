@@ -808,7 +808,7 @@ section.testimonial-section.spad {
 	text-align: center;
 	border-radius: 50%;
 	position: absolute;
-	left: -190px;
+	/* left: -190px; */
 	top: 50%;
 	-webkit-transform: translateY(-6px);
 	-ms-transform: translateY(-6px);
@@ -823,7 +823,7 @@ section.testimonial-section.spad {
 }
 .testimonial-slider.owl-carousel .owl-nav button.owl-next {
 	left: auto;
-	right: -190px;
+	right: 0px;
 }
 .testimonial-slider .ts-item {
 	text-align: center;
@@ -2345,36 +2345,6 @@ section.testimonial-section.spad {
     cursor: default;
 }
 
-.owl-nav button {
-    position: absolute;
-    top: 50%;
-    background-color: #000;
-    color: #fff;
-    margin: 0;
-    transition: all 0.3s ease-in-out;
-}
-.owl-nav button.owl-prev {
-    left: 0;
-}
-.owl-nav button.owl-next {
-    right: 0;
-}
-
-.owl-nav button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.38) !important;
-}
-span {
-    font-size: 70px;
-    position: relative;
-    top: -5px;
-}
-.owl-nav button:focus {
-    outline: none;
-}
-
-.owl-carousel .owl-item .owl-lazy{
-    opacity: 1 !important;
+.testimonial-slider.owl-carousel.owl-loaded.owl-drag {
+    padding: 0 15px;
 }

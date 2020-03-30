@@ -78,7 +78,7 @@
     ----------------------- */
     $(".testimonial-slider").owlCarousel({
         items: 4,
-        dots: false,
+        dots: true,
         autoplay: true,
         loop: true,
         smartSpeed: 1200,
