@@ -27,4 +27,7 @@ Route::group([
 
     Route::get('homepage','UserController@homepage')->name('homepage');
 
+    Route::get('room','UserController@room')->name('room');
+
+    Route::get('resting-place','UserController@restingplace')->name('restingplace');
 });

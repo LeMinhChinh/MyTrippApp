@@ -21,9 +21,6 @@ class RestingPlaces extends Migration
             $table->string('name',100);
             $table->string('address',100);
             $table->string('image',1000);
-            $table->string('image_1',1000)->nullable();
-            $table->string('image_2',1000)->nullable();
-            $table->string('image_3',1000)->nullable();
             $table->tinyInteger('rate');
             $table->tinyInteger('pool');
             $table->tinyInteger('parking');

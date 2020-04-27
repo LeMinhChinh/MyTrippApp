@@ -20,4 +20,12 @@ class UserController extends Controller
     {
         return view('user/signup');
     }
+
+    public function room(Request $request){
+        return view('user/room');
+    }
+
+    public function restingplace(Request $request){
+        return view('user/hotel');
+    }
 }
